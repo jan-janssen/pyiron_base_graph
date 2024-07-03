@@ -1,3 +1,2 @@
 #!/bin/bash
 pip install git+https://github.com/pyiron/pyiron_base.git@delayed --no-build-isolation
-pip install -e aiida_qe_basic

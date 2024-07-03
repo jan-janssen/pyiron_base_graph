@@ -23,10 +23,9 @@ dependencies:
 - tqdm =4.66.4
 - traitlets =5.14.3
 - versioneer =0.28
-- matplotlib =3.9.0
 - qe=7.2
 - qe-tools=2.0.0
 - ase=3.23.0
 - matplotlib=3.9.0
 - xmlschema=3.3.1
-
+- pygraphviz =1.13
