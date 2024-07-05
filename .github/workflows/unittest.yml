@@ -23,7 +23,6 @@ jobs:
       shell: bash -l {0}
       run: |
         bash postBuild
-        pip install -e aiida_qe_basic
         conda install -c conda-forge jupyter papermill
         export ESPRESSO_PSEUDO=$(pwd)/espresso/pseudo
         papermill pyiron_base_graph.ipynb pyiron_base_graph_out.ipynb -k "python3"
